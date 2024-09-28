@@ -36,4 +36,9 @@ public class BaloonController : MonoBehaviour
             Destroy(gameObject); // Balloon reaches the end of the path
         }
     }
+
+    public void SetWaypoints(Transform[] newWaypoints)
+    {
+        waypoints = newWaypoints;
+    }
 }
